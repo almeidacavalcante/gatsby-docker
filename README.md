@@ -5,6 +5,7 @@ This image has two major tags:
 
 1. `latest` - will serve your assets on production using up an nginx server
 
+<!-- I think the step 2 does not build your project, because you need to build it before using this image. -->
 2. `onbuild` - builds your project and creates a new docker image
 
 ## Usage
